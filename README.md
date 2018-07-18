@@ -143,7 +143,10 @@ predict 0**11**00 11**00**1
 
 **简化系数 提升变异系数 最大采样比例** 是三种不同的控制程式膨胀的方向，详细参考文档中的论述[控制程式膨胀的方法](http://gplearn.readthedocs.io/en/stable/intro.html#bloat)。
 
-一下几个特征感觉和特征组合的筛选不太有关，但是还是罗列一下。
+
+
+- 以下几个特征感觉和特征组合的筛选不太有关，但是还是罗列一下。
+
 
 **hall_of_fame** 备选数量
 `n_components < hall_of_fame < population_size` 选定最后的n_components个程式前，提前筛选出的程式，具体为什么多这么一步，我也没想清除。
